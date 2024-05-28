@@ -136,6 +136,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+
 REST_FRAMEWORK = {
 
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -164,6 +166,11 @@ AUTH_USER_MODEL = 'user.User'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+    'token',
+]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
