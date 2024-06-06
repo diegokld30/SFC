@@ -2,7 +2,7 @@ from rest_framework.viewsets import ModelViewSet
 from apps.movimientoparte.api.serializers import MovimientoParteSerializer
 from apps.movimientoparte.models import MovimientoParte
 
-""" listar todos los movimientos """
+""" listar todos los movimientos  """
 from apps.movimientoparte.api.serializers import Movimiento_listar
 """ listar """
 class MovimientoParteViewSet(ModelViewSet):

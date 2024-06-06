@@ -3,7 +3,7 @@ from apps.movimientoparte.models import MovimientoParte
 """ REGISTRA """
 from apps.movimiento.models import Movimiento
 from apps.parteevento.models import ParteEvento
-""" listar  """
+""" listar los movimientos  """
 from apps.movimiento.api.serializers import MovimientoSerializer
 from apps.parteevento.api.serializers import ParteEventoSerializer
 
