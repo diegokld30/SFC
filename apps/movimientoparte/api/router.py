@@ -2,7 +2,7 @@ from rest_framework.routers import DefaultRouter
 
 from apps.movimientoparte.api.views import MovimientoParteViewSet
 
-""" listar """
+""" listar  """
 from apps.movimientoparte.api.views import Movimiento_listar_vista
 """ listar """
 router_movimientoParte = DefaultRouter()
